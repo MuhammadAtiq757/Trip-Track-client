@@ -9,7 +9,7 @@ const Banner = () => {
     <div className="max-w-md">
       <h1 className="mb-5 text-4xl font-bold">Travel and Adventure Campaign</h1>
       <div className='grid md:grid-cols-2 gap-4'>
-      <button className="btn bg-green-600 hover:bg-green-700 border-none text-white w-full">Tour Guide</button>
+      <button className="btn bg-green-600 hover:bg-green-700 border-none text-white w-full hover:text-black">Tour Guide</button>
       <button className="btn bg-white text-black hover:badge-outline hover:border-green-600">About Us</button>
       </div>
     </div>
