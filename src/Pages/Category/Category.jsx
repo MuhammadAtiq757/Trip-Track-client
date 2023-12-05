@@ -11,9 +11,9 @@ const Category = () => {
             <h1 className='text-4xl font-bold mt-4'>Pick Your Perfect Tour</h1>
            </div>
 
-<div className='flex items-center justify-around mt-14'>
+<div className='grid md:grid-cols-6 gap-4 mt-14 container mx-auto px-8'>
     
-<div>
+<div className='text-center'>
 <div className="avatar">
   <div className="w-24 rounded-full">
     <img src="https://i.ibb.co/k9zbRGb/slide-2.jpg" />
@@ -29,7 +29,7 @@ const Category = () => {
 
 
 
-<div>
+<div className='text-center'>
 <div className="avatar">
   <div className="w-24 rounded-full">
     <img src="https://i.ibb.co/L6S0fXM/slide-3.jpg" />
@@ -43,7 +43,7 @@ const Category = () => {
 
 
 
-<div>
+<div className='text-center'>
 <div className="avatar">
   <div className="w-24 rounded-full">
     <img src="https://i.ibb.co/n8XFvP5/slide-1.jpg" />
@@ -55,7 +55,7 @@ const Category = () => {
   </div>
 </div>
 
-<div>
+<div className='text-center'>
 <div className="avatar">
   <div className="w-24 rounded-full">
     <img src="https://i.ibb.co/zmrvhR5/slide-7.jpg" />
@@ -68,7 +68,7 @@ const Category = () => {
 </div>
 
 
-<div>
+<div className='text-center'>
 <div className="avatar">
   <div className="w-24 rounded-full">
     <img src="https://img.staticmb.com/mbcontent/images/uploads/2022/7/swimming-pool.jpg" />
@@ -80,7 +80,7 @@ const Category = () => {
   </div>
 </div>
 
-<div>
+<div className='text-center'>
 <div className="avatar">
   <div className="w-24 rounded-full">
     <img src="https://i.ibb.co/n8XFvP5/slide-1.jpg" />
