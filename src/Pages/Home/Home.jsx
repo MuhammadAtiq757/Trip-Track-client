@@ -5,6 +5,7 @@ import Banner from '../Banner/Banner';
 import Category from '../Category/Category';
 import AboutUs from '../AboutUs/AboutUs';
 import PopularPlace from '../PopularPlace/PopularPlace';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
           <Category></Category>
           <AboutUs></AboutUs>
           <PopularPlace></PopularPlace>
+          <Services></Services>
         </div>
     );
 };
