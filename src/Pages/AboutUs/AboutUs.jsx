@@ -6,7 +6,7 @@ import { FaPeopleRobbery } from "react-icons/fa6";
 
 const AboutUs = () => {
     return (
-        <div className='mt-[120px] container mx-auto grid md:grid-cols-2 gap-4'>
+        <div className='mt-[120px] container mx-auto grid md:grid-cols-2 gap-4 px-4 '>
 
 
 

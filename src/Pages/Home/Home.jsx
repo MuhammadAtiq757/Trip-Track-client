@@ -6,6 +6,7 @@ import Category from '../Category/Category';
 import AboutUs from '../AboutUs/AboutUs';
 import PopularPlace from '../PopularPlace/PopularPlace';
 import Services from '../Services/Services';
+import TourGallary from '../TourGallary/TourGallary';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
           <AboutUs></AboutUs>
           <PopularPlace></PopularPlace>
           <Services></Services>
+          <TourGallary></TourGallary>
         </div>
     );
 };

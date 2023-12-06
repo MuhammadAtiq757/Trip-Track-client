@@ -6,7 +6,7 @@ import { CiStar } from "react-icons/ci";
 
 const PopularPlace = () => {
     return (
-        <div className='mt-32 container mx-auto'>
+        <div className='mt-32 container mx-auto px-4'>
            <div className='text-center'>
            <h1 className='text-xl font-semibold'><span className='bg-green-600 p-2 rounded text-white'>Popular</span>Destination</h1>
             <h1 className='text-5xl font-bold mt-4'>Travel Most Popular Place <br /> In The World</h1>
