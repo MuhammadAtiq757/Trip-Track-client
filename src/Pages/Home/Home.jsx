@@ -7,6 +7,7 @@ import AboutUs from '../AboutUs/AboutUs';
 import PopularPlace from '../PopularPlace/PopularPlace';
 import Services from '../Services/Services';
 import TourGallary from '../TourGallary/TourGallary';
+import Packages from '../Packages/Packages';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
           <PopularPlace></PopularPlace>
           <Services></Services>
           <TourGallary></TourGallary>
+          <Packages></Packages>
         </div>
     );
 };
