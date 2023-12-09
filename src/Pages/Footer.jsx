@@ -9,7 +9,7 @@ const Footer = () => {
 
 
     return (
-      <footer className="footer p-10 bg-base-200  mt-32 text-white font-semibold" style={footerStyle}>
+      <footer className="footer p-10 bg-base-200  mt-32 text-black font-bold" style={footerStyle}>
       <aside>
         <img className='w-40' src={logo} alt="" />
         <p>TripTrack Travel<br/>Providing reliable tech since 1992</p>
