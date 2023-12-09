@@ -8,6 +8,7 @@ import PopularPlace from '../PopularPlace/PopularPlace';
 import Services from '../Services/Services';
 import TourGallary from '../TourGallary/TourGallary';
 import Packages from '../Packages/Packages';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
           <Services></Services>
           <TourGallary></TourGallary>
           <Packages></Packages>
+          <Testimonial></Testimonial>
         </div>
     );
 };
