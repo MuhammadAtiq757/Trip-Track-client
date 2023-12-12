@@ -15,6 +15,7 @@ const Packages = () => {
 </div>
 
 
+<div>
 <div className='grid md:grid-cols-3 gap-2 mt-20'>
 
 {/* one */}
@@ -84,6 +85,7 @@ const Packages = () => {
 
 
 
+</div>
 </div>
 
 

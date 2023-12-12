@@ -9,6 +9,7 @@ import Services from '../Services/Services';
 import TourGallary from '../TourGallary/TourGallary';
 import Packages from '../Packages/Packages';
 import Testimonial from '../Testimonial/Testimonial';
+import Brands from '../Brands/Brands';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
           <TourGallary></TourGallary>
           <Packages></Packages>
           <Testimonial></Testimonial>
+          <Brands></Brands>
         </div>
     );
 };
