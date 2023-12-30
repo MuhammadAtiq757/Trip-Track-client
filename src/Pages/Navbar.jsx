@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../assets/images/logo.png'
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52 bg-gray-700  hover:bg-inherit">
       <li className='hover:bg-green-500 rounded transition'><a>Home</a></li>
-      <li className='hover:bg-green-500 rounded transition'><a>Tour</a></li>
+      <li className='hover:bg-green-500 rounded transition'> <Link to='/tour'>Tour</Link></li>
       <li className='hover:bg-green-500 rounded transition'><a>About</a></li>
       <li className='hover:bg-green-500 rounded transition'><a>Service</a></li>
         <li >
@@ -31,10 +31,10 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 ">
-    <li className='hover:bg-green-500 rounded transition hover:text-black'><a>Home</a></li>
-      <li className='hover:bg-green-500 rounded transition hover:text-black'><a>Tour</a></li>
-      <li className='hover:bg-green-500 rounded transition hover:text-black'><a>About</a></li>
-      <li className='hover:bg-green-500 rounded transition hover:text-black'><a>Service</a></li>
+    <li className='hover:bg-green-500 rounded transition hover:text-black'><Link to='/'>Home</Link></li>
+      <li className='hover:bg-green-500 rounded transition hover:text-black'><Link to='/tour'>Tour</Link></li>
+      <li className='hover:bg-green-500 rounded transition hover:text-black'><Link to='/about'>About</Link></li>
+      <li className='hover:bg-green-500 rounded transition hover:text-black'><Link to='/services'>Services</Link></li>
       <li>
         <details>
           <summary className='hover:bg-green-500 rounded transition'>Pages</summary>
